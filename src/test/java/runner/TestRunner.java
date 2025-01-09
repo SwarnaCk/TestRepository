@@ -18,8 +18,7 @@ import java.util.List;
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty.html",
                 "json:target/cucumber-reports/CucumberTestReport.json",
-                "rerun:target/cucumber-reports/rerun.txt",
-                "org/example/framework/TestListener"
+                "rerun:target/cucumber-reports/rerun.txt"
         },
         monochrome = true,
         dryRun = false

@@ -42,7 +42,7 @@ public class LoginPage {
     }
 
     public void navigateToLoginPage() {
-        driver.get("https://ck-qe-dev-ed.develop.my.salesforce.com/");
+        driver.get("https://cloudkaptan-16d-dev-ed.develop.my.salesforce.com/");
     }
 
     public LeadPage loginToSalesforce(String username, String password) {
